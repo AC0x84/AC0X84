@@ -6,8 +6,9 @@
 
 </div>
 
----
+![GitHub Snake](https://raw.githubusercontent.com/AC0X84/AC0X84/output/github-snake.gif)
 
+---
 ### About Me
 
 ```bash
@@ -15,3 +16,4 @@ $ whoami
 > Obsessed Hacker and Programmer
 $ cat mission.txt
 > Finding vulnerabilities No one had ever recognized.
+
