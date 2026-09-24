@@ -14,4 +14,4 @@
 $ whoami
 > Obsessed Hacker and Programmer
 $ cat mission.txt
-> Finding vulnerabilities before the bad guys do.
+> Finding vulnerabilities No one has seen.
