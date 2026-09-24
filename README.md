@@ -1,3 +1,1 @@
-# Hi, I'm AC0X84 👋
-
-Welcome to my GitHub profile!
+![GitHub Snake](https://raw.githubusercontent.com/AC0X84/AC0X84/output/github-snake.svg)
