@@ -14,6 +14,5 @@
 $ whoami
 > Obsessed Hacker and Programmer
 $ cat mission.txt
-> Finding vulnerabilities before the bad guys do.
-$ sudo apt install coffee
-> Loading... please wait
+> Finding vulnerabilities Is My Hobby.
+
