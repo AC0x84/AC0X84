@@ -14,4 +14,4 @@
 $ whoami
 > Obsessed Hacker and Programmer
 $ cat mission.txt
-> Finding vulnerabilities No one has seen.
+> Finding vulnerabilities No one had ever recognized.
