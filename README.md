@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/AC0X84">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=700&lines=I+am+AC0X84;Exploiting+is+my+hobby;But+I+do+not+just+exploit;I+leave+my+creativity+there;I+do+programming+too" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=700&lines=I+am+AC0x84;Exploiting+is+my+hobby;But+I+do+not+just+exploit;I+leave+my+creativity+there;I+do+programming+too" alt="Typing SVG" />
 </a>
 
 </div>
