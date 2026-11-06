@@ -12,12 +12,6 @@
 > Hacker. Programmer. Nerd.
 > Obsessed with books, science, cybersecurity and programming.
 > Find the weakness, calculate the move.
+> Just a 17 Yo dude, who loves to be in His Thoughts.
 ```
-
-### Identity
-
-`Just a normal dude who loves being lost in his thoughts.`
-
----
-
 ![GitHub Snake](https://raw.githubusercontent.com/AC0X84/AC0X84/output/github-snake.svg)
