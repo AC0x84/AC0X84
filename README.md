@@ -1,7 +1,6 @@
 <div align="center">
 
 <a href="https://github.com/AC0X84">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=800&color=FF0000&center=true&vCenter=true&width=700&lines=AC0X84;Exploiting+is+my+hobby;ProgrammingHolic" alt="Typing SVG" />
 </a>
 
 </div>
