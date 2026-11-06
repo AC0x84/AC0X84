@@ -7,13 +7,17 @@
 </div>
 
 ---
+
 ```bash
 > Hacker. Programmer. Nerd.
-> Obsessed with Books, Science,Cyber security, Programming.
+> Obsessed with books, science, cybersecurity and programming.
 > Find the weakness, calculate the move.
 ```
+
 ### Identity
-`just a normal 17yo Dude who Loves to be in his Thoughts` 
+
+`Just a normal dude who loves being lost in his thoughts.`
+
 ---
 
 ![GitHub Snake](https://raw.githubusercontent.com/AC0X84/AC0X84/output/github-snake.svg)
