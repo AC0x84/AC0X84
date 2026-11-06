@@ -1,1 +1,30 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <style>
+    .r { font: 14px 'Courier New', monospace; fill: #ff0000; writing-mode: vertical-rl; text-orientation: upright; letter-spacing: 2px; animation: fall linear infinite; opacity: .55; }
+    @keyframes fall { from { transform: translateY(-260px); } to { transform: translateY(240px); } }
+    .t { font: bold 38px 'Courier New', monospace; fill: #ff0000; }
+    .s { font: 18px 'Courier New', monospace; fill: #ffffff; }
+    .c { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect width="800" height="220" fill="#000"/>
+  <text class="r" x="20"  y="0" style="animation-duration:4s;animation-delay:-1s">10110A0F1C01E7</text>
+  <text class="r" x="70"  y="0" style="animation-duration:6s;animation-delay:-3s">01X84FF00A1B9</text>
+  <text class="r" x="120" y="0" style="animation-duration:5s;animation-delay:-2s">C0DE1010EXPL01T</text>
+  <text class="r" x="170" y="0" style="animation-duration:7s;animation-delay:-5s">0110AC0X84101</text>
+  <text class="r" x="220" y="0" style="animation-duration:4.5s;animation-delay:-4s">F1A0B7D3011E</text>
+  <text class="r" x="270" y="0" style="animation-duration:6.5s;animation-delay:-1s">1001SQL0XSS11</text>
+  <text class="r" x="320" y="0" style="animation-duration:5.5s;animation-delay:-3s">A7E00110FF1C</text>
+  <text class="r" x="370" y="0" style="animation-duration:4.2s;animation-delay:-2s">0xDEADBEEF01</text>
+  <text class="r" x="420" y="0" style="animation-duration:6.8s;animation-delay:-4s">1011ROOT0101A</text>
+  <text class="r" x="470" y="0" style="animation-duration:5.2s;animation-delay:-1s">E7C0DE0110BB</text>
+  <text class="r" x="520" y="0" style="animation-duration:7.2s;animation-delay:-6s">01SHELL1001FF</text>
+  <text class="r" x="570" y="0" style="animation-duration:4.8s;animation-delay:-2s">B1N4RY0110A0</text>
+  <text class="r" x="620" y="0" style="animation-duration:6.2s;animation-delay:-3s">1A0F0X84C0DE1</text>
+  <text class="r" x="670" y="0" style="animation-duration:5.8s;animation-delay:-5s">0101PWN3D1001</text>
+  <text class="r" x="720" y="0" style="animation-duration:4.4s;animation-delay:-1s">FF00A1E7B3C1</text>
+  <text class="r" x="770" y="0" style="animation-duration:6.6s;animation-delay:-4s">1001EXEC0110</text>
+  <rect x="150" y="60" width="500" height="100" fill="#000" fill-opacity=".8" stroke="#ff0000"/>
+  <text class="t" x="400" y="105" text-anchor="middle">AC0X84</text>
+  <text class="s" x="400" y="140" text-anchor="middle">&gt; exploiting is my hobby<tspan class="c">_</tspan></text>
+</svg>
