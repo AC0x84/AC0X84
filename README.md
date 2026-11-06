@@ -10,7 +10,7 @@
 ```bash
 > Hacker. Programmer. Nerd.
 > Obsessed with books, science, cybersecurity and programming.
-> Find the weakness, calculate the move.
+> Finding the weakness, and calculating the move.
 > Just a 17 yo dude who loves being lost in his thoughts.
 ```
 
