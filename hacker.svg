@@ -1,19 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <defs>
+    <clipPath id="box"><rect x="150" y="60" width="500" height="100"/></clipPath>
+  </defs>
   <style>
     .r { font: 14px 'Courier New', monospace; fill: #ff0000; writing-mode: vertical-rl; text-orientation: upright; letter-spacing: 2px; animation: fall linear infinite; opacity: .55; }
     @keyframes fall { from { transform: translateY(-260px); } to { transform: translateY(240px); } }
     .t { font: bold 38px 'Courier New', monospace; fill: #ff0000; }
-    .s { font: 20px 'Courier New', monospace; fill: #ffffff; opacity: 0; animation: show 9s infinite; }
-    @keyframes show {
-      0%   { opacity: 0; }
-      4%   { opacity: 1; }
-      29%  { opacity: 1; }
-      33%  { opacity: 0; }
-      100% { opacity: 0; }
+    .s { font: 20px 'Courier New', monospace; fill: #ffffff; }
+
+    @keyframes a1 {
+      0%   { transform: translateX(0);     animation-timing-function: steps(15, end); }
+      9%   { transform: translateX(180px); }
+      19%  { transform: translateX(180px); animation-timing-function: steps(15, end); }
+      28%  { transform: translateX(0); }
+      100% { transform: translateX(0); }
     }
-    .c { animation: blink 1s steps(1) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes a2 {
+      0%   { transform: translateX(0);     animation-timing-function: steps(24, end); }
+      9%   { transform: translateX(288px); }
+      19%  { transform: translateX(288px); animation-timing-function: steps(24, end); }
+      28%  { transform: translateX(0); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes a3 {
+      0%   { transform: translateX(0);     animation-timing-function: steps(19, end); }
+      9%   { transform: translateX(228px); }
+      19%  { transform: translateX(228px); animation-timing-function: steps(19, end); }
+      28%  { transform: translateX(0); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes vis {
+      0%    { opacity: 1; }
+      28%   { opacity: 1; }
+      28.5% { opacity: 0; }
+      100%  { opacity: 0; }
+    }
+    .cv1 { animation: a1 15s infinite; }
+    .cv2 { animation: a2 15s 5s infinite; }
+    .cv3 { animation: a3 15s 10s infinite; }
+    .k1 { opacity: 0; animation: a1 15s infinite, vis 15s infinite; }
+    .k2 { opacity: 0; animation: a2 15s 5s infinite, vis 15s 5s infinite; }
+    .k3 { opacity: 0; animation: a3 15s 10s infinite, vis 15s 10s infinite; }
   </style>
+
   <rect width="800" height="220" fill="#000"/>
   <text class="r" x="20"  y="0" style="animation-duration:4s;animation-delay:-1s">10110A0F1C01E7</text>
   <text class="r" x="70"  y="0" style="animation-duration:6s;animation-delay:-3s">01X84FF00A1B9</text>
@@ -31,9 +60,21 @@
   <text class="r" x="670" y="0" style="animation-duration:5.8s;animation-delay:-5s">0101PWN3D1001</text>
   <text class="r" x="720" y="0" style="animation-duration:4.4s;animation-delay:-1s">FF00A1E7B3C1</text>
   <text class="r" x="770" y="0" style="animation-duration:6.6s;animation-delay:-4s">1001EXEC0110</text>
-  <rect x="150" y="60" width="500" height="100" fill="#000" fill-opacity=".85" stroke="#ff0000"/>
+
+  <rect x="150" y="60" width="500" height="100" fill="#000" stroke="#ff0000"/>
   <text class="t" x="400" y="105" text-anchor="middle">AC0X84</text>
-  <text class="s" x="400" y="140" text-anchor="middle" style="animation-delay:0s">&gt; Hack n code..<tspan class="c">_</tspan></text>
-  <text class="s" x="400" y="140" text-anchor="middle" style="animation-delay:-6s">&gt; Exploiting is my Hobby<tspan class="c">_</tspan></text>
-   <text class="s" x="400" y="140" text-anchor="middle" style="animation-delay:-3s">&gt; Programming Holic<tspan class="c">_</tspan></text>
+
+  <g clip-path="url(#box)">
+    <text class="s" x="310" y="140">&gt; Hack n code..</text>
+    <rect class="cv1" x="310" y="122" width="220" height="30" fill="#000"/>
+    <rect class="k1" x="310" y="123" width="3" height="24" fill="#ff0000"/>
+
+    <text class="s" x="256" y="140">&gt; Exploiting is my Hobby</text>
+    <rect class="cv2" x="256" y="122" width="330" height="30" fill="#000"/>
+    <rect class="k2" x="256" y="123" width="3" height="24" fill="#ff0000"/>
+
+    <text class="s" x="286" y="140">&gt; Programming Holic</text>
+    <rect class="cv3" x="286" y="122" width="270" height="30" fill="#000"/>
+    <rect class="k3" x="286" y="123" width="3" height="24" fill="#ff0000"/>
+  </g>
 </svg>
