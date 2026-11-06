@@ -17,6 +17,3 @@
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AC0X84&bg_color=0d1117&color=ff0000&line=ff0000&point=ffffff&area=true&area_color=ff0000&hide_border=true)
-
-</div>
