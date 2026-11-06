@@ -14,13 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Generate Snake GIF
-        uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.gif?color_snake=#FF0000&color_dots=#FF0000,#FF0000,#FF0000,#FF0000,#FF0000&color_background=#FF0000
-            dist/github-snake-dark.gif?palette=github-dark&color_snake=#FF0000&color_dots=#FF0000,#FF0000,#FF0000,#FF0000,#FF0000&color_background=#FF0000
+            dist/github-snake.svg?color_snake=#FF0000&color_dots=#161b22,#4d0000,#800000,#b30000,#ff1a1a
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF0000&color_dots=#161b22,#4d0000,#800000,#b30000,#ff1a1a
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
