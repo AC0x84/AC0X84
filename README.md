@@ -7,23 +7,13 @@
 </div>
 
 ---
-
-### About
-
 ```bash
 > Hacker. Programmer. Nerd.
-> Obsessed with physics, maths and chess.
-> Same mindset everywhere: find the weakness, calculate the move.
+> Obsessed with Books, Science,Cyber security, Programming.
+> Find the weakness, calculate the move.
 ```
-
-### Stack
-
-`Python` `Bash` `Kali Linux` `Robotics` `Embedded`
-
-### Obsessions
-
-`Cybersecurity` `Physics` `Mathematics` `Chess`
-
+### Identity
+`just a normal 17yo Dude who Loves to be in his Thoughts` 
 ---
 
 ![GitHub Snake](https://raw.githubusercontent.com/AC0X84/AC0X84/output/github-snake.svg)
