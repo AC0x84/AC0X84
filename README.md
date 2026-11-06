@@ -17,3 +17,8 @@
 
 <div align="center">
 
+<div align="center">
+
+![Hacker](./hacker.svg)
+
+</div>
